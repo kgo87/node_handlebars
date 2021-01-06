@@ -2,12 +2,25 @@
 const connection = require(".././config/connection");
 const orm = require(".././config/orm");
 
-const db = require(".././config/orm");
+
 const { config } = require(".././config/connection");
 
-orm.selectAll().then((results) => {
-    console.log(results);
-})
 
+function viewAll(){
+    orm.selectAll().then((results) => {
+        console.log(results);
+        // return res.send(results);
+        // res.render("index", { wishes: results });
 
-// module.exports = burger;
+    })
+
+}
+
+viewAll();
+
+// const view = viewAll();
+// module.exports = view;
+
+module.exports = {
+    viewAll()
+}
