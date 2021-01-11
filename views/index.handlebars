@@ -4,7 +4,7 @@
 
 <div id="burg_display">
   <div id="not_dev">
-    <h2>Not devoured</h2>
+    <h2>Not devoured:</h2>
 
     <ul id = "dev_list">
       {{#each burgers}}
@@ -22,7 +22,7 @@
 
   <div id="dev">
 
-    <h2>Devoured</h2>
+    <h2>Devoured:</h2>
 
     <ul>
       {{#each burgers}}
@@ -39,16 +39,12 @@
 </div>
 
 
-
-<h2>Add your burger</h2>
-{{!-- <form id = "create-form" action="/api/burgers" method="POST">
-  <textarea id = "burg" type="text" name="burger_name"></textarea>
-  <button type="button">Submit </button>
-</form> --}}
+<div id = "add_a_burger">
+<h2 id = "add_b_h2">Add your burger</h2>
   <textarea id = "burg" type="text" name="burger_name"></textarea>
   <button id = "add" type="button">Submit </button>
-<p>Enter a burger you want to eat and click Submit</p>
-
+<p id = "add_b_p" >Enter a burger you want to eat and click Submit</p>
+</div>
 
 <script type="text/javascript">
 $("#add").on("click", function () {

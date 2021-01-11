@@ -1,7 +1,4 @@
 var mysql = require("mysql");
-// const util = require("util");
-// var inquirer = require("inquirer");
-
 
 var connection = mysql.createConnection({
   host: "localhost",
@@ -11,8 +8,6 @@ var connection = mysql.createConnection({
   database: "burger_db"
 });
 
-
-
 connection.connect(function(err) {
     if (err) {
       console.error("error connecting: " + err.stack);
@@ -20,8 +15,6 @@ connection.connect(function(err) {
     }
     console.log("connected as id " + connection.threadId);
   });
-
-// connection.query = util.promisify(connection.query);
 
 
 module.exports = connection;

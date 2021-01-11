@@ -1,20 +1,5 @@
-// var inquirer = require("inquirer");
 const connection = require(".././config/connection");
 const orm = require(".././config/orm");
-
-// const { config } = require(".././config/connection");
-//  function viewAll(){
-//     orm.selectAll().then((results) => {
-//         console.log(results);
-//     }),
-
-// }
-
-// viewAll();
-
-
-
-
 
 var burger = {
   selectAll: function(cb) {
@@ -37,5 +22,4 @@ var burger = {
 
 };
 
-// Export the database functions for the controller.
 module.exports = burger;
