@@ -10,7 +10,7 @@ else {
         host: "localhost",
         port: 3306,
         user: "root",
-        password: "kated14101987eco",
+        password: process.env.DB_PASS || "kated14101987eco",
         database: "burger_db"
       });
 }
