@@ -22,12 +22,24 @@ The app contains three main routes: GET - displays all the burgers from the data
 
 ## 3. Link to Heroku deployment <a name="link"></a>
 The project is deployed on Heroku and available for view using this link:
-https://note-taker-heroku-kat.herokuapp.com/ 
+https://node-handlebars-heroku-kat.herokuapp.com/
 
 ## 4. Structure<a name="structure"></a>
 The structure of the repo is presented in the image below:
 ![Screenshot](./public/assets/media/dir_structure.png).
-Config file contains *connection.js* and *orm.js*. 
+Config folder contains *connection.js* and *orm.js*. 
+*Connection.js* has the code needed to establish connection to a database.
+![Screenshot](./public/assets/media/connection.png).
+*orm.js* defines CRUD methods.
+![Screenshot](./public/assets/media/orm.png).
+Controllers folder contains *burger-controller.js* which establishes server routes:
+![Screenshot](./public/assets/media/controllers.png).
+Models folder contains *burger.js* which connects the developed CRUD methods with the server routes:
+![Screenshot](./public/assets/media/models_burger.png).
+Views and public folder contains the frontend part of the application such as handlebars, stylesheet and front-end javascript.
+![Screenshot](./public/assets/media/frontend.png).
+*Server.js* that is located in the root folder stores all the dependensies and connects to the port.
+![Screenshot](./public/assets/media/server.png).
 
 
 ## 5. Finished product<a name="final"></a>
