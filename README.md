@@ -7,6 +7,7 @@
 3. [ Link to Heroku deployment ](#link)
 4. [ Structure ](#structure)
 5. [ Finished product ](#final)
+6. [ Contact details ](#contact)
 
 
 ## 1. Description<a name="desc"></a>
@@ -45,3 +46,8 @@ Views and public folder contains the frontend part of the application such as ha
 ## 5. Finished product<a name="final"></a>
 The final HTML page looks like this:
 ![Screenshot](./public/assets/media/final.png)
+
+## 6. Contact details<a name="contact"></a>
+If you have any questions, contact me via email: 
+
+<a href="mailto:kathy.gomozova@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
